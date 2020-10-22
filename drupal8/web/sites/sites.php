@@ -73,3 +73,7 @@ foreach ($platformsh->getUpstreamRoutes($platformsh->applicationName) as $route)
 }
 
 // Add additional domain mappings here.
+
+$sites = array(
+  'el-hincho8.fellaini.local' => 'default'
+);
