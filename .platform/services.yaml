@@ -1,0 +1,19 @@
+# The services of the project.
+#
+# Each service listed will be deployed
+# to power your Platform.sh project.
+
+mysqldb:
+    type: "mysql:10.0"
+    disk: 2048
+    configuration:
+        schemas:
+            - hinchodb
+        endpoints:
+            hincho:
+                default_schema: hincho
+                privileges:
+                    hinchodb: admin
+
+cache:
+    type: redis:6.0

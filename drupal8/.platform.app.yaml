@@ -4,7 +4,7 @@
 # See https://docs.platform.sh/configuration/app.html
 
 # The name of this app. Must be unique within a project.
-name: 'app'
+name: 'drupal8'
 
 # The runtime the application uses.
 type: 'php:7.4'
@@ -21,8 +21,7 @@ runtime:
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
     rediscache: 'cache:redis'
-    first: 'db:first'
-    second: 'db:second'
+    hincho: 'mysqldb:hincho'
 
 # The size of the persistent disk of the application (in MB).
 disk: 2048
