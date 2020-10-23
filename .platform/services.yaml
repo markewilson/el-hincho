@@ -11,7 +11,7 @@ mysqldb:
             - hinchodb
         endpoints:
             hincho:
-                default_schema: hincho
+                default_schema: hinchodb
                 privileges:
                     hinchodb: admin
 
