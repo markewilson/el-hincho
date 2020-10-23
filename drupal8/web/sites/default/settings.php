@@ -792,8 +792,14 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  * Keep this code block at the end of this file to take full effect.
  */
 #
- if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-   include $app_root . '/' . $site_path . '/settings.local.php';
- }
 
-$settings['config_sync_directory'] = 'sites/default/files/config_bwmN_IWh6oCT2PTanGRMwCw0RBkv_I5IwEk6QYL33BAvo3aS4inIuXVvZ2tm3VlJb7Ljb2zduQ/sync';
+$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
+// Automatic Platform.sh settings.
+if (file_exists($app_root . '/' . $site_path . '/../settings.platformsh.php')) {
+    $platformsh_subsite_id = 'hincho';
+    include $app_root . '/' . $site_path . '/../settings.platformsh.php';
+}
+// Local settings. These come last so that they can override anything.
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+    include $app_root . '/' . $site_path . '/settings.local.php';
+}
