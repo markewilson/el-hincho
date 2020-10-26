@@ -123,7 +123,7 @@ web:
                 '^/sites/eheart/files/(css|js)':
                     expires: 2w
 # The size of the persistent disk of the application (in MB).
-disk: 1024
+disk: 2048
 
 # The mounts that will be performed when the package is deployed.
 
