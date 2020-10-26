@@ -36,4 +36,4 @@
 *--dump.sql
 *.sql
 *.sql.gz
-.DS_Store
+*.DS_Store

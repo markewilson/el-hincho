@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+font-family: 'Raleway', serif;
+}
+p,
+ul {
+  font-size: 16px;
+  line-height: 1.75;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', serif;
+  text-transform: none;
+  font-weight: 900;
+}
+a {color: #c92229;}
+a:hover,
+a:focus,
+a:active
+ {
+  color: #b1cc49;
+}
+header#page-header {display: none;}
+#navbar {margin-top:0px;}
+.navbar-collapse {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 45%;
+    bottom: 45%;
+    font-size: 1.15em;
+}
+
+
+.region-content {margin-top:-150px;}
+.node-webform {margin-top:-275px;}
+.page-header {margin-top:15px;}
+.content h2 {margin-top:20px;}
+.navbar-static-top {background:#2e6ca4;}
+.navbar .nav li a:hover,
+.navbar .nav li a:focus,
+.navbar .nav li a:active {
+  color: #b1cc49;
+}
+
+.menu .active-trail a {
+  color: #b1cc49;
+}
+
+section.agency-contact {
+  background-color: #222222;
+  background-image: url('../img/market.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.views-field-title {text-align: center;}
+.views-field-body {padding:10px 10px 10px 10px;}
+
+.view-current-projects .views-field-body p {margin: auto;}
+
