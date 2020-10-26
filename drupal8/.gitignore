@@ -31,3 +31,10 @@ private
 .drush
 drush-backups
 .console
+
+
+# Ignore SQL dump files
+*--dump.sql
+*.sql
+*.sql.gz
+.DS_Store
