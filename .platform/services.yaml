@@ -9,11 +9,16 @@ mysqldb:
     configuration:
         schemas:
             - hinchodb
+            - drupal7db
         endpoints:
             hincho:
                 default_schema: hinchodb
                 privileges:
                     hinchodb: admin
+            drupal7:
+                default_schema: drupal7db
+                privileges:
+                    drupal7db: admin
 
 cache:
     type: redis:6.0
