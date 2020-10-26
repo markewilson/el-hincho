@@ -77,3 +77,6 @@ foreach ($platformsh->getUpstreamRoutes($platformsh->applicationName) as $route)
 $sites = array(
   'el-hincho8.fellaini.local' => 'default'
 );
+
+
+$sites['el-hincho.com'] = 'default';
