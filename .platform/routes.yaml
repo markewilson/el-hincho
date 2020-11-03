@@ -24,10 +24,13 @@ https://{default}/:
     - Accept-Language
   ssi:
     enabled: false
-https://drupal7.{default}/:
+https://aircooled.{default}/:
   type: upstream
   upstream: drupal7:http
-https://aircooled.{default}/:
+https://figueroa.{default}/:
+  type: upstream
+  upstream: drupal7:http
+https://eheart.{default}/:
   type: upstream
   upstream: drupal7:http
 
