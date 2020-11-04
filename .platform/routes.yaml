@@ -33,4 +33,7 @@ https://figueroa.{default}/:
 https://eheart.{default}/:
   type: upstream
   upstream: drupal7:http
+https://aircooledoutfitters.com/:
+  type: upstream
+  upstream: drupal7:http
 
