@@ -36,4 +36,7 @@ https://eheart.{default}/:
 https://aircooledoutfitters.com/:
   type: upstream
   upstream: drupal7:http
+https://melissa-figueroa.com/:
+  type: upstream
+  upstream: drupal7:http
 

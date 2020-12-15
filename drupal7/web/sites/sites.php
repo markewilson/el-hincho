@@ -9,4 +9,5 @@ $sites['el-hincho.com'] = 'aircooled';
 $sites['aircooled.el-hincho.com'] = 'aircooled';
 $sites['eheart.el-hincho.com'] = 'eheart';
 $sites['figueroa.el-hincho.com'] = 'figueroa';
+$sites['melissa-figueroa.com'] = 'figueroa';
 $sites['aircooledoutfitters.com'] = 'aircooled';
