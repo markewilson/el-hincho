@@ -39,4 +39,7 @@ https://aircooledoutfitters.com/:
 https://melissa-figueroa.com/:
   type: upstream
   upstream: drupal7:http
+https://eheartclub.org/:
+  type: upstream
+  upstream: drupal7:http
 
