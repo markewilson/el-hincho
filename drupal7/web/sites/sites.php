@@ -11,3 +11,4 @@ $sites['eheart.el-hincho.com'] = 'eheart';
 $sites['figueroa.el-hincho.com'] = 'figueroa';
 $sites['melissa-figueroa.com'] = 'figueroa';
 $sites['aircooledoutfitters.com'] = 'aircooled';
+$sites['eheartclub.org'] = 'eheart';
