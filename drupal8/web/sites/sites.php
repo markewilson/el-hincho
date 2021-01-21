@@ -75,11 +75,9 @@ foreach ($platformsh->getUpstreamRoutes($platformsh->applicationName) as $route)
 // Add additional domain mappings here.
 
 $sites = array(
-  'el-hincho8.fellaini.local' => 'default',
-  'aircooled8.fellaini.local' => 'default',
-  'figueroa8.fellaini.local' => 'default',
-  'svloba.fellaini.local' => 'default'
+  'aircooled8.fellaini.local' => 'aircooled',
+  'el-hincho.fellaini.local' => 'default',
+  'figueroa8.fellaini.local' => 'figueroa',
+  'svloba.fellaini.local' => 'svloba',
+  'el-hincho.com' => 'default'
 );
-
-
-$sites['el-hincho.com'] = 'default';
