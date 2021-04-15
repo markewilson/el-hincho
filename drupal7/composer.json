@@ -164,7 +164,13 @@
             }
         },
         "preserve-paths": [
-            "web/sites"
+            "web/sites/aircooled",
+            "web/sites/all/libraries",
+            "web/sites/all/modules/custom",
+            "web/sites/all/themes/custom",
+            "web/sites/default",
+            "web/sites/figueroa",
+            "web/sites/sites.php",
         ]
     }
 }
