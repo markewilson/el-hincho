@@ -170,7 +170,7 @@
             "web/sites/all/themes/custom",
             "web/sites/default",
             "web/sites/figueroa",
-            "web/sites/sites.php",
+            "web/sites/sites.php"
         ]
     }
 }
