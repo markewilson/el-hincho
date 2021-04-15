@@ -108,20 +108,6 @@ web:
                 '^/sites/aircooled/files/(css|js)':
                     expires: 2w
 
-        '/sites/eheart/files':
-            # Allow access to all files in the public files directory.
-            allow: true
-            expires: 5m
-            passthru: '/index.php'
-            root: 'web/sites/eheart/files'
-
-            # Do not execute PHP scripts.
-            scripts: false
-
-            rules:
-                # Provide a longer TTL (2 weeks) for aggregated CSS and JS files.
-                '^/sites/eheart/files/(css|js)':
-                    expires: 2w
 # The size of the persistent disk of the application (in MB).
 disk: 2048
 

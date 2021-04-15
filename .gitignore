@@ -1,1 +1,6 @@
 *.DS_Store
+# Ignore SQL dump files
+*--dump.sql
+*.sql
+*.sql.gz
+.DS_Store

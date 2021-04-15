@@ -793,7 +793,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  */
 #
 
-$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
+//$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync/aircooled';
+$settings['config_sync_directory'] = '../config/sync/aircooled';
 // Automatic Platform.sh settings.
 if (file_exists($app_root . '/' . $site_path . '/../settings.platformsh.php')) {
     $platformsh_subsite_id = 'aircooled';

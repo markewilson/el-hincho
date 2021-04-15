@@ -30,16 +30,10 @@ https://aircooled.{default}/:
 https://figueroa.{default}/:
   type: upstream
   upstream: drupal7:http
-https://eheart.{default}/:
-  type: upstream
-  upstream: drupal7:http
 https://aircooledoutfitters.com/:
   type: upstream
   upstream: drupal7:http
 https://melissa-figueroa.com/:
-  type: upstream
-  upstream: drupal7:http
-https://eheartclub.org/:
   type: upstream
   upstream: drupal7:http
 
