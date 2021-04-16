@@ -6,21 +6,22 @@
 
 use Drupal\Core\Installer\InstallerKernel;
 
-if (!isset($platformsh_subsite_id)) {
-  $platformsh_subsite_id = 'database';
-}
+//if (!isset($platformsh_subsite_id)) {
+  //$platformsh_subsite_id = 'database';
+//}
 
 $platformsh = new \Platformsh\ConfigReader\Config();
 
 // Configure the database.
-if ($platformsh->hasRelationship($platformsh_subsite_id)) {
-  $creds = $platformsh->credentials($platformsh_subsite_id);
+if ($platformsh->hasRelationship('hincho')) {
+  $creds = $platformsh->credentials('hincho');
   if ($creds) {
     $databases['default']['default'] = [
       'driver' => $creds['scheme'],
       'database' => $creds['path'],
       'username' => $creds['username'],
       'password' => $creds['password'],
+      'prefix' => $platformsh_subsite_id .'_',
       'host' => $creds['host'],
       'port' => $creds['port'],
       'pdo' => [PDO::MYSQL_ATTR_COMPRESS => !empty($creds['query']['compression'])]

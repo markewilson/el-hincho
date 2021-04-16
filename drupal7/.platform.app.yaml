@@ -117,7 +117,6 @@ disk: 2048
 mounts:
   '/docroot/sites/default/files': 'shared:files/default'
   '/docroot/sites/aircooled/files': 'shared:files/aircooled'
-  '/docroot/sites/eheart/files': 'shared:files/eheart'
   '/docroot/sites/figueroa/files': 'shared:files/figueroa'
   "/tmp": "shared:files/tmp/7"
   "/private": "shared:files/private/7"
