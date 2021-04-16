@@ -5,7 +5,7 @@
  */
 
 use Drupal\Core\Installer\InstallerKernel;
-
+// changed to map to a single database with table prefixes
 //if (!isset($platformsh_subsite_id)) {
   //$platformsh_subsite_id = 'database';
 //}
